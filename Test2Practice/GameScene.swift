@@ -59,7 +59,7 @@ class GameScene: SKScene {
             self.addChild(n)
         }
     }
-    
+    //Initial Commit
     func touchUp(atPoint pos : CGPoint) {
         if let n = self.spinnyNode?.copy() as! SKShapeNode? {
             n.position = pos
